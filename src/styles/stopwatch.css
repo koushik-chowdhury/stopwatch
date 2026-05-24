@@ -1,0 +1,38 @@
+.time-display {
+  background: #1f2937;
+  padding: 40px;
+  border-radius: 20px;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+  font-family: monospace;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+}
+
+.controls button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.start-btn {
+  background: #00d26a;
+}
+
+.pause-btn {
+  background: #ffb800;
+}
+
+.reset-btn {
+  background: #ff4d6d;
+  color: white;
+}
